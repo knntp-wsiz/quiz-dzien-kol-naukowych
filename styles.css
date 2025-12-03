@@ -8,6 +8,7 @@
 body {
   max-width: 1024px;
   margin: 0 auto;
+  overscroll-behavior: none;
 }
 
 /* -------------------
@@ -106,11 +107,13 @@ body {
   border-radius: 6px 0 0 6px;
   text-align: center;
 }
+
 .dropzone {
   border: 2px dashed #ccc;
   background: #fff;
   border-radius: 0 6px 6px 0;
 }
+
 .dropzone.hovered {
   border-color: #4a90e2;
   background: #e6f0ff;
@@ -123,6 +126,7 @@ body {
   border-color: green !important;
   background-color: #e0ffe0 !important;
 }
+
 .incorrect {
   border-color: red !important;
   background-color: #ffe0e0 !important;
