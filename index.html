@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pl">
   <head>
     <meta charset="UTF-8" />
@@ -6,13 +6,28 @@
     <title>Quiz Języki Programowania</title>
     <link rel="stylesheet" href="./styles.css" />
     <link rel="icon" type="image/x-icon" href="./favicon.ico" />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/js/all.min.js"
+      integrity="sha512-6BTOlkauINO65nLhXhthZMtepgJSghyimIalb+crKRPhvhmsCdnIuGcVbR5/aQY2A+260iC1OPy1oCdB6pSSwQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
   </head>
   <body>
     <!-- Hero -->
-    <div class="logos">
+    <!-- <div class="logos">
       <img src="./wsiz_logo_black.png" alt="Hero Image" height="55" />
       <img src="./logo_black.png" alt="Hero Image" height="55" />
-    </div>
+    </div> -->
     <h1 class="title">Połącz kod z językami programowania</h1>
     <p class="description">
       Przeciągnij kod do poprawnego języka programowania.
@@ -53,35 +68,51 @@
       <!-- Drop zones -->
       <div class="quiz-grid">
         <div class="pair">
-          <div class="label">Python</div>
+          <div class="label">
+            <i class="fa-brands fa-python" aria-hidden="true"></i>Python
+          </div>
           <div class="dropzone" data-accept="python"></div>
         </div>
         <div class="pair">
-          <div class="label">JavaScript</div>
+          <div class="label">
+            <i class="fa-brands fa-js" aria-hidden="true"></i>JavaScript
+          </div>
           <div class="dropzone" data-accept="javascript"></div>
         </div>
         <div class="pair">
-          <div class="label">Java</div>
+          <div class="label">
+            <i class="fa-brands fa-java" aria-hidden="true"></i>Java
+          </div>
           <div class="dropzone" data-accept="java"></div>
         </div>
         <div class="pair">
-          <div class="label">C#</div>
+          <div class="label">
+            <i class="fa-solid fa-hashtag" aria-hidden="true"></i>C#
+          </div>
           <div class="dropzone" data-accept="csharp"></div>
         </div>
         <div class="pair">
-          <div class="label">SQL</div>
+          <div class="label">
+            <i class="fa-solid fa-database" aria-hidden="true"></i>SQL
+          </div>
           <div class="dropzone" data-accept="sql"></div>
         </div>
         <div class="pair">
-          <div class="label">HTML</div>
+          <div class="label">
+            <i class="fa-brands fa-html5" aria-hidden="true"></i>HTML
+          </div>
           <div class="dropzone" data-accept="html"></div>
         </div>
         <div class="pair">
-          <div class="label">CSS</div>
+          <div class="label">
+            <i class="fa-brands fa-css3-alt" aria-hidden="true"></i>CSS
+          </div>
           <div class="dropzone" data-accept="css"></div>
         </div>
         <div class="pair">
-          <div class="label">Rust</div>
+          <div class="label">
+            <i class="fa-brands fa-rust" aria-hidden="true"></i>Rust
+          </div>
           <div class="dropzone" data-accept="rust"></div>
         </div>
       </div>
